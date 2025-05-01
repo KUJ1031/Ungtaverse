@@ -92,7 +92,11 @@ public class BaseController : MonoBehaviour
             weaponPivot.rotation = Quaternion.Euler(0f, 0f, rotZ);
         }
 
-        weaponHandler.Rotate(isLeft);
+        if (weaponHandler != null)
+        {
+            weaponHandler.Rotate(isLeft);
+        }
+
     }
 
     public void ApplyKnockback(Transform other, float power, float duration)

@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: e22a95b2940cb7f458763f8c2efcd0ca, type: 3}
+      value: {fileID: 21300000, guid: 87a70aaaa7e55ce419c66631616f560d, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300000, guid: 4ab29ec9a6b4bd34f904fe9dcb9cb973, type: 3}
+      value: {fileID: 21300000, guid: 14f897c152d83104da4cbf3f923c5f77, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: be357b117a044b04a8f8e803717a254b, type: 3}
+      value: {fileID: 21300000, guid: 3a719afa2247acf44aa5d2cdb0595fcc, type: 3}
     - time: 0.5
-      value: {fileID: 21300000, guid: 1686a25118b1b874cad8d812220d25de, type: 3}
+      value: {fileID: 21300000, guid: 5698db055e596aa41b19f3ce9591db64, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e22a95b2940cb7f458763f8c2efcd0ca, type: 3}
-    - {fileID: 21300000, guid: 4ab29ec9a6b4bd34f904fe9dcb9cb973, type: 3}
-    - {fileID: 21300000, guid: be357b117a044b04a8f8e803717a254b, type: 3}
-    - {fileID: 21300000, guid: 1686a25118b1b874cad8d812220d25de, type: 3}
+    - {fileID: 21300000, guid: 87a70aaaa7e55ce419c66631616f560d, type: 3}
+    - {fileID: 21300000, guid: 14f897c152d83104da4cbf3f923c5f77, type: 3}
+    - {fileID: 21300000, guid: 3a719afa2247acf44aa5d2cdb0595fcc, type: 3}
+    - {fileID: 21300000, guid: 5698db055e596aa41b19f3ce9591db64, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -78,11 +78,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.16666667
-    functionName: CreateDustParticles
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

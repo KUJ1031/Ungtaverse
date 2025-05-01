@@ -21,19 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: e22a95b2940cb7f458763f8c2efcd0ca, type: 3}
-    - time: 0.16666667
-      value: {fileID: 21300000, guid: 4ab29ec9a6b4bd34f904fe9dcb9cb973, type: 3}
-    - time: 0.33333334
-      value: {fileID: 21300000, guid: be357b117a044b04a8f8e803717a254b, type: 3}
-    - time: 0.5
-      value: {fileID: 21300000, guid: 1686a25118b1b874cad8d812220d25de, type: 3}
+      value: {fileID: 21300000, guid: 8815d85d0098f1a43949693837ff9eca, type: 3}
+    - time: 0.125
+      value: {fileID: 21300000, guid: b8c841e2a4d031a4680265d7781aff69, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: c8e6b89412664b04d983b9ac39760ed2, type: 3}
+    - time: 0.375
+      value: {fileID: 21300000, guid: 9a4ceff7f41911c468591cf35d5f03b8, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 12
+  m_SampleRate: 16
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e22a95b2940cb7f458763f8c2efcd0ca, type: 3}
-    - {fileID: 21300000, guid: 4ab29ec9a6b4bd34f904fe9dcb9cb973, type: 3}
-    - {fileID: 21300000, guid: be357b117a044b04a8f8e803717a254b, type: 3}
-    - {fileID: 21300000, guid: 1686a25118b1b874cad8d812220d25de, type: 3}
+    - {fileID: 21300000, guid: 8815d85d0098f1a43949693837ff9eca, type: 3}
+    - {fileID: 21300000, guid: b8c841e2a4d031a4680265d7781aff69, type: 3}
+    - {fileID: 21300000, guid: c8e6b89412664b04d983b9ac39760ed2, type: 3}
+    - {fileID: 21300000, guid: 9a4ceff7f41911c468591cf35d5f03b8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5833333
+    m_StopTime: 0.4375
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -78,11 +78,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.16666667
-    functionName: CreateDustParticles
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
