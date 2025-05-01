@@ -9,6 +9,8 @@ public class ProjectileManager : MonoBehaviour
     public static ProjectileManager Instance { get { return instance; } }
     [SerializeField] private GameObject[] projectilePrefab;
 
+    [SerializeField] private ParticleSystem impactParticleSystem;
+
     private void Awake()
     {
         instance = this;
@@ -20,8 +22,19 @@ public class ProjectileManager : MonoBehaviour
         GameObject obj = Instantiate(origin, startPosition, Quaternion.identity);
 
         ProjectileController projectileController = obj.GetComponent<ProjectileController>();
-        projectileController.Init(direction, rangeWeaponHandler);
+        projectileController.Init(direction, rangeWeaponHandler, this);
 
+    }
+
+    public void CreateImpactParticlesAtPosition(Vector3 position, RangeWeaponHandler weaponHandler)
+    {
+        impactParticleSystem.transform.position = position;
+        ParticleSystem.EmissionModule em = impactParticleSystem.emission;
+        em.SetBurst(0, new ParticleSystem.Burst(0, Mathf.Ceil(weaponHandler.BulletSize * 5)));
+
+        ParticleSystem.MainModule mainModule = impactParticleSystem.main;
+        mainModule.startSpeedMultiplier = weaponHandler.BulletSize * 5f;
+        impactParticleSystem.Play();
     }
 }
 
