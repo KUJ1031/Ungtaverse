@@ -46,21 +46,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 791cdbbaceeb8fb47a0f58e29d5ceaa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3.5
+  delay: 0.5
   weaponSize: 0.7
   power: 5
   speed: 10
   attackRange: 10
   target:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   isOnknockback: 1
   knockbackPower: 0.1
   knockbackTime: 0.5
   projectileSpawnPosition: {fileID: 9111516707669955227}
   bulletIndex: 0
   bulletSize: 0.7
-  duration: 10
+  duration: 1
   spread: 1
   numberofProjectilesPerShot: 3
   multipleProjectileAngle: 3
